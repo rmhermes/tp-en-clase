@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.header input {
+  margin-left: 25px;
+}
+
+nav ol {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.481);
+}
+
+.navbar {
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+section {
+  background-color: red;
+}
+
+p {
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.maindisplay {
+  display: block;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}/*# sourceMappingURL=estilosgaleria.css.map */

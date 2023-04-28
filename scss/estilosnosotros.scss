@@ -1,0 +1,106 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 960px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    background-color: #2c67c6;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.header h2{
+    margin: 10px 10px;
+    color: white;
+ 
+}   
+nav{
+    background-color: #314a75;
+    display: flex;
+    justify-content: right;
+}
+nav ol{
+    margin: 0px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 20px
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding:10px
+}
+nav a:hover{
+    border:10px solid white;
+    background-color: white;
+    color: black;
+}
+.imgsmall{
+    max-width: 200px;
+}
+.imgbig{
+    max-width: 760px;
+}
+.container{
+    display:flex;
+    justify-content:left;
+    margin: 0px;
+    max-width: 960px;
+}
+.container_wrp{
+    margin: 10px 10px 10px 0px;
+    border: 20px solid #656464;
+}
+
+.container_wrp_top{
+    padding: 20px;
+    max-width: 760px;
+    margin-bottom: 10px;
+    border-bottom: 10px solid #656464;
+}
+.container_wrp_bottom{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    margin: 20px;
+}
+.noticialink{
+    color: black;
+    text-decoration: none;
+}
+.card a:hover{
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.containerAside{
+    margin: 10px 0px;
+}
+.aside{
+    width: 20vw;
+    height: 30vh;
+    background-color: grey ;
+    border: 2px solid black;
+    
+
+}
+
+footer{
+    color: white;
+    background-color: rgb(148, 185, 226);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

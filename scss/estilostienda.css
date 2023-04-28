@@ -1,0 +1,42 @@
+body {
+  background-image: url(../Img-20230410/img01.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+video {
+  width: 300px;
+  border-radius: 0px 0px 20px 20px;
+  border: 3px solid white;
+}
+
+.container {
+  width: 335px;
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(120deg, rgb(121, 9, 9) 0%, rgb(198, 3, 127) 0%, rgb(8, 7, 7) 100%);
+  border-radius: 20px;
+  border: 3px solid black;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.textcontainer {
+  color: white;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 0px;
+  font-size: 12px;
+  background-color: rgb(95, 13, 65);
+}/*# sourceMappingURL=estilostienda.css.map */
